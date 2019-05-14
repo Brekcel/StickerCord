@@ -8,7 +8,7 @@ edition = "2018"
 
 [dependencies]
 rand = "^0.6.5"
-telegram-bot = {path = "./libs/telegram-bot/lib"}
+telegram-bot = "^0.6.1"
 tokio-core = "^0.1.17"
 futures = "^0.1.27"
 serenity = "^0.6.0-rc.0"
