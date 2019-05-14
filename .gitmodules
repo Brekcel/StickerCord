@@ -1,0 +1,3 @@
+[submodule "libs/libwebp-sys"]
+	path = libs/libwebp-sys
+	url = https://github.com/myfreeweb/libwebp-sys.git

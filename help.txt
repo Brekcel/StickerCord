@@ -1,0 +1,14 @@
+To use this bot:
+
+Register with your Discord account via the commands below.
+Once registered, send the sticker you wish to put to this bot.
+Then type ".s" (without the quotes) on the server you wish to send the sticker to.
+Your message will then be deleted and replaced with the sticker.
+
+Commands:
+
+*/help* Displays the help message. (This)
+
+*/register DISCORD_NAME#ID* Begins registration of your Discord with your Telegram account
+
+*/unregister* Removes your Discord accounts association with your Telegram account
