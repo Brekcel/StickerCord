@@ -50,6 +50,7 @@ use serenity::model::{
 
 const TELEGRAM_TOKEN: &'static str = env!("TELE_TOKEN");
 const DISCORD_TOKEN: &'static str = env!("DISC_TOKEN");
+const DISCORD_TAG: &'static str = env!("DISC_TAG");
 
 lazy_static! {
 	static ref DB: RwLock<Database> = RwLock::new(Database::from_file());
@@ -164,7 +165,8 @@ fn main() {
 									let mut reply = SendMessage::new(message.chat,
 																	 format!(
 																		 "Verification has begun. Please send the following message to \
-																	  *StickerCord#4070* on Discord:\n\n.verify {}",
+																	  *{}* on Discord:\n\n.verify {}",
+																		 &DISCORD_TAG,
 																		 magic
 																	 )
 									);
