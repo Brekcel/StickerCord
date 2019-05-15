@@ -1,5 +1,5 @@
 [package]
-name = "sticky_cord"
+name = "sticker_cord"
 version = "0.1.0"
 authors = ["Clayton Breckel <clayton.breckel@gmail.com>"]
 edition = "2018"
