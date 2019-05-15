@@ -1,3 +1,6 @@
 [submodule "libs/libwebp-sys"]
 	path = libs/libwebp-sys
 	url = https://github.com/myfreeweb/libwebp-sys.git
+[submodule "libs/telegram-bot"]
+	path = libs/telegram-bot
+	url = https://github.com/telegram-rs/telegram-bot.git

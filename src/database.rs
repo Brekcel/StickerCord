@@ -104,7 +104,7 @@ impl Database {
 				Some(reg) => reg,
 				None => {
 					new_message
-						.reply(&ctx, "Attempting to register for the wrong Discord tag.")
+						.reply(&ctx, "Attempting to register for the wrong Discord tag. Ensure that you entered your tag in the format of Name#0000.")
 						.unwrap();
 					return;
 				},
